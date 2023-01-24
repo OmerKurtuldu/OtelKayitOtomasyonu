@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>HİZMET SÖZLEŞMESİ
+Bir tarafta ilerleyen maddelerde Müşteri olarak anılacak olan gerçek ve/veya tüzel kişi ve bir tarafta ilerleyen maddelerde Otel olarak anılacak olan taraflar; işbu sözleşmenin resmi bir teklif olduğunu, ücretli konaklama hizmetinin sunulması için tüm şartları içerdiğini, aşağıda belirtilen tüm şartların taraflar için bağlayıcı (kati) olduğunu, müşteri tarafından değiştirilmeyeceğini göz önünde bulundurarak, işbu sözleşmeyi aşağıdakiler çerçevesinde akdetmiş bulunmaktadırlar.
+
+SÖZLEŞME KONUSU
+1.1. İşbu sözleşme uyarınca Otel, Müşterinin talebi üzerine Otelde konaklama hizmetini sunmakla yükümlüdür (ileride ‘Hizmet’ olarak anılacak).
+1.2. İşbu sözleşmenin imzalanmasıyla (Müşteri, Otelde konaklamak ve/veya otelin sunduğu hizmetler için rezervasyon yaptırarak işbu sözleşmeyi imza ettiğini kabul etmektedir) birlikte Müşteri, otelde konaklama kuralları, rezervasyon kuralları ve tarifeleri hakkında bilgilendirildiğini teyit etmektedir.
+1.3. İşbu sözleşme akdedildiği andan itibaren Otel, Müşterinin talebini teyit edecektir.
+
+KONAKLAMA REZERVASYONUNUN ŞEKLİ
+2.1. Hizmet rezervasyonu,rezervasyon formunun doldurulması yoluyla gerçekleştirilebilir.
+2.2. Müşteri talebinde herhangi bir değişiklik yapmak istediği durumda işbu sözleşmede belirlenen hususlara uymak ve şartları yerine getirmek kaydıyla, otelin internetadresinde belirtilen numaraları arayarak Otelin Rezervasyon Ofisine başvurabilir.
+2.3. Müşterinin, Rezervasyonunda değişiklik yapma talebini en geç otelin tahmini hizmet sunma (konaklamanın başlangıcı) tarihinden 14 gün önce Müşteri tarafından veya Müşteri tarafından açıkça yetkilendirilmiş vekili tarafından otele iletmesi gerekmektedir.
+2.4. Müşteri, herhangi bir ücret ödemeksizin, en fazla 1 defa rezervasyonun değişiklik talebinde bulunabilir. Müşteri daha fazla değişiklik talebinde bulunduğu takdirde, müşteri, otelin uyguladığı değişiklik, rezervasyon ve fesih tarifesine göre ücret ödemekle yükümlü tutulacaktır.
+2.5. İşbu sözleşme ile Müşteri, kayıt sırasında özel indirimin uygulandığı dönemdeki rezervasyonda herhangi bir sebepten dolayı değişiklik yaptığı/yapmak istediği takdirde yeni yapılacak rezervasyonun, söz konusu rezervasyon değişiklik talebinin teyit edildiği tarih sırasında uygulanan fiyatları göz önünde bulundurarak yapılacağını kabul, beyan ve taahhüt eder.
+2.6. Çocuklar için ücretsiz konaklama ve indirim ebeveynleriyle aynı villada kalmaları halinde uygulanacaktır. İşbu sözleşmeye göre Rezervasyon kaydı sırasında, Müşteri tarafından bildirilen otelde konaklayacak çocuğun yaşı otelde giriş esnasında yapılacak otel kaydında dikkate alınacaktır. Çocuğun yaşının tespiti için otele girişte, kayıt sırasında oteldeki görevli şahıs tarafından talep edildiği takdirde, Müşteri çocuğun kimliğini ibraz edecektir ve ibraz edilen çocuğun kimliğinde otel görevlisince kimlikte belirtilen yaştan farklı olduğu tespit edildiği halde rezervasyonda gereken değişiklikler yapılıp bundan doğacak ücret farkını Müşteri karşılayacaktır.
+
+ÖDEME ŞEKLİ
+
+3.1. Müşteri, Online rezervasyon sistemi aracığıyla kredi kartıyla yapılan ödemeler sırasında kendi kredi kartı bilgilerini sisteme girecektir.
+3.2. Otel, kredi kartı bilgilerinin ve bilgilerin sunulduğu sistemin, bilgilerin herhangi durumda ve herhangi şekilde görünmesini veya kopyalanmasını engelleyen özel bir güvenlik sisteminin koruması altında olduğunu kabul eder. Otel, aynı zamanda, zarar verici programlar ve Müşterinin bilgisayarından kaynaklanan buna benzer program sistemleri ve müşterinin dikkatsizliği sebebiyle, bilgi ve belge ve sırların üçüncü şahıslar tarafından öğrenilmesi dolayısı ile meydana gelen zararı karşılamayacak ve bundan hiçbir şekilde sorumlu tutulmayacaktır.
+3.3. Müşteri, otele giriş sırasında otel elemanına; online rezervasyon kaydı yaparken ödeme için kullandığı kredi kartını ya da bu kredi kartının ön kısmının fotokopisini ibraz edecektir. Müşterinin, bu sorumlulukları yerine getirmemesinden meydana gelecek olan zararlardan / hasarlardan dolayı sorumluluk müşteriye ait olacaktır.
+3.4. Fatura, Müşteriye hizmet aldıktan sonra otelden çıkışı esnasında verilecektir. Faturanın alınmamasından Otel sorumlu tutulmayacaktır.
+3.5. Sitemizde oda fiyatlarımız Euro/Tl/Dolar üzerinden gösterilmektedir. Mail Order üzerinden yapılan ödemeler Euro/Tl/ Dolar ile kabul edilmektedir. Döviz kurları ile alakalı bilgiler T.C Merkez Bankası tarafından sağlanmaktadır.
+
+ÖDEMENİN İADE ŞEKLİ
+
+4.1. Standart Rate (iade edilebilir) rezervasyonlarda yapılan ödemenin tamamı, Müşterinin giriş yapmadan 14 gün önce yapılan Fesih veya değişiklik talebi üzerine bu talebini takip eden 15 iş günü içinde otel tarafından Müşteriye Bankaya ödenen komisyon tutarı düşülerek iade edilecektir.
+4.2. Fesih ya da değişiklik talebi, giriş tarihinden 14 gün veya sonrasında bir tarihte yapıldığı durumda, Müşteriden alınan konaklama ücretinin iadesi mümkün olmayacaktır ve müşteri bu tutarı otele cezai şart olarak ödediğini geri dönülemez olarak kabul etmiştir. İşbu sözleşme gereğince Müşterinin ödeyeceği cezai şart ve diğer tazminatlar için katma değer vergisi ödenmesi gerektiği takdirde müşteri yürürlükteki katma değer vergisini ödemek mecburiyetindedir.
+4.3. Rezervasyon kaydı sırasında, Kredi kartıyla yapılan ödemelerden yapılacak iade veya geri ödemeler, ödemenin yapıldığı Müşterinin kredi kartının ait olduğu banka hesabına ve/veya ödemenin gönderildiği banka hesabına otel tarafından geri yatırılacaktır.
+
+KONAKLAMA ŞEKLİ
+5.1. Giriş sırasında Müşterinin yaşı ve kimliği kontrol edilecektir. Müşterinin yanlış bilgi vermesinden dolayı yapılan harcamaları Müşteri karşılayacaktır.
+5.2. Müşteri, otele vardığı saat kaç olursa olsun, otele giriş günü en erken saat 14:30’da tesise yerleşeceğini ve otelden çıkacağı saat kaç olursa olsun en geç saat 12:00’de tesisten çıkış yapacağını, villadan çıkış yaptıktan sonra kendisine verilecek ek hizmetin bedelini ödeyeceğini kabul etmektedir.
+5.3. Online rezervasyon sırasında rezervasyon ücretinin tamamı alınacaktır.
+5.4. Müşterinin otele yerleştikten sonra Otelin sorumluluklarını yerine getirmemesi dışında bir sebepten dolayı hizmetten vazgeçmesi durumunda yapılan ödeme geri iade edilmeyecektir.
+
+TARAFLARIN SORUMLULUĞU
+6.1. Otel, Müşterinin, rezerve ettiği tesise yerleştikten sonra, mücbir sebepler dışındaki sebeplerden doğan tüm durumlardan sorumlu tutulacaktır. İşbu sözleşme gereği söz konusu durumlarda Otel, Hizmeti iade etme veya hizmetin karşılığını ödeyerek veya Müşteriye ek hizmet ve/veya alternatif hizmet sunarak hasarları karşılayacaktır. Ek hizmet veya konaklama hizmetinin, Müşteri tarafından kabul edilmesi Müşterinin tazminat olarak isteyebileceği rezervasyon ücretini iade etme talebinde bulunma hakkından ve diğer her türlü tazminat ve dava talep hakkından feragat etmesi anlamına gelecektir.
+6.2 Konukların otel bünyesinde sebep olabileceği her türlü maddi zarar, check-out (ayrılış) esnasında müşteri tarafından ödenir.
+6.3. Müşteriye kalitesiz hizmet sunulduğu durumda Müşteri şikayetini yazılı şekilde Otel temsilcisine bildirecektir, aksi takdirde Otel tarafından sunulan hizmet kusursuz ve zamanında sunulmuş sayılacaktır.
+6.4 Müşterinin, sözleşmenin herhangi bir maddesini ihlal etmesi durumunda Müşteri, yapmış olduğu ihlal sonucu otelin uğradığı her türlü zararı karşılamayı kabul ve taahhüt eder.
+DİĞER HÜKÜMLER
+7.1. Olumsuz hava şartları, grev-lokavt, terör, askerî harekât, sel, yangın vs. Teknik tahmin edilemeyecek durumlar mücbir sebepler olarak kabul edilecektir. Bu tür durumların meydana gelmesi durumunda otel, hizmet vermeye devam etmeyebilir veya bu oteldeki konaklamayı aynı ya da başka bölgede aynı seviyedeki otel konaklamasıyla değiştirebilir.
+7.2. Otel, odanızda meydana gelmiş hasar, genel alanlarda verilmiş tahribatlardan ve/veya kaybolmuş parçalardan dolayı tarafınızdan bu gibi hasarları tazmin etme hakkını saklı tutar.
+7.3. Küçük çocukların yanlarında velileri olmadan havuza girmeleri yasaktır. Çocukların sorumluluğu velilerine aittir. İşletme sorumlu değildir.
+7.4. Tesisimizde konuklarımızın kullanımına tahsis edilmiş bisikletler bulunmaktadır. Konuklarımızın bisikletleri kullanırken başına gelebilecek kazalardan müessesemiz sorumlu değildir.
+7.5. Para ve değerli eşya kaybından, oluşabilecek kaza ve yaralanmalardan Tesis yönetimi sorumlu tutulamaz.
+
+</value>
+  </data>
+</root>
